@@ -1,59 +1,34 @@
- Advanced Multi-Stock Forecasting Using RF, XGBoost, LSTM & Weighted Ensemble
+# 📈 **Stock Price Forecasting Using Advanced Feature Engineering + RF/XGBoost/LSTM Ensemble**
 
-This project implements a high-accuracy stock forecasting system using a combination of:
+This project builds a highly accurate **multi-model ensemble** for predicting strong directional movements in stock prices.  
+It uses **79%+ accuracy methodology** with advanced feature engineering, a weighted ensemble of **Random Forest, XGBoost, and LSTM**, and automatic saving of trained models.
 
-Advanced Feature Engineering (70+ features)
+---
 
-Random Forest Classifier
+## 🚀 **Project Overview**
 
-XGBoost Classifier
+This ML pipeline performs:
 
-LSTM Neural Network
+- ✔ Loading stock data from Google Drive  
+- ✔ Generating **70 advanced technical features**  
+- ✔ Creating **strong signal classification targets**  
+- ✔ Training an ensemble of:
+  - **Random Forest**
+  - **XGBoost**
+  - **LSTM Deep Learning Model**
+- ✔ **Dynamic ensemble weighting** based on validation accuracy  
+- ✔ Model saving for each stock  
+- ✔ Complete evaluation:
+  - Accuracy  
+  - F1-score  
+  - Precision  
+  - Recall  
+  - Confusion Matrix  
+  - AUC-ROC  
 
-Weighted Ensemble Model
+---
 
-The system loads multiple stock CSV files from Google Drive or local storage, extracts predictive features, trains individual models, computes ensemble weights based on validation accuracy, and evaluates performance with detailed metrics and visualizations.
+## 📊 **Dataset Source**
 
- Key Features
-✔ Multi-stock training (AAPL, GOOGL, MSFT, TSLA, NVDA, META, NFLX, etc.)
-✔ 70+ engineered features including:
+The project expects CSV files from **Yahoo Finance**, stored like:
 
-Multi-period returns
-
-Moving averages & MA ratios
-
-Volatility features (5d, 20d, 50d)
-
-Price position indicators
-
-MACD, RSI (multiple periods)
-
-Bollinger bands
-
-Volume features (ratios, spikes)
-
-Market structure signals (Inside Bar, Higher High, Lower Low)
-
-✔ Three powerful ML models:
-
-Random Forest
-
-XGBoost
-
-LSTM (2-layer)
-
-✔ Weighted ensemble:
-
-Weights are dynamically computed based on validation accuracy of each model.
-
-✔ Automatic saving of:
-
-RF model
-
-XGBoost model
-
-LSTM model
-
-Scaler
-
-Ensemble weights
