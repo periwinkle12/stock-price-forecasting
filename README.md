@@ -9,16 +9,16 @@ It uses **79%+ accuracy methodology** with advanced feature engineering, a weigh
 
 This ML pipeline performs:
 
-- ✔ Loading stock data from Google Drive  
-- ✔ Generating **30 advanced technical features**  
-- ✔ Creating **strong signal classification targets**  
-- ✔ Training an ensemble of:
+-  Loading stock data from Google Drive  
+-  Generating **30 advanced technical features**  
+-  Creating **strong signal classification targets**  
+-  Training an ensemble of:
   - **Random Forest**
   - **XGBoost**
   - **LSTM Deep Learning Model**
-- ✔ **Dynamic ensemble weighting** based on validation accuracy  
-- ✔ Model saving for each stock  
-- ✔ Complete evaluation:
+-  **Dynamic ensemble weighting** based on validation accuracy  
+- Model saving for each stock  
+- Complete evaluation:
   - Accuracy  
   - F1-score  
   - Precision  
