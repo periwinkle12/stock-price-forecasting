@@ -77,5 +77,5 @@ Ensemble: Weighted average of model probabilities with weights proportional to v
 ensemble = RF_weight * RF
           + XGB_weight * XGB
           + LSTM_weight * LSTM
-###  Author**
+###  Author
 Kiran Behera
